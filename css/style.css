@@ -1,0 +1,146 @@
+/* General */
+body{
+		margin: 0;
+		padding: 0;
+}
+
+/* Navbar */
+.menu-bar{
+		display: flex;
+		background-color: #ffffff;
+		width: 100%;
+}
+.menu-bar a img{
+		width: 150px;
+		height: 40px;
+		margin-top: 15px;
+}
+.menu-bar ul{
+		list-style: none;
+}
+.menu-bar ul li{
+		margin: 0px;
+		padding: 10px;
+		font-size: 18px;
+}
+.menu-bar ul li a{
+		text-decoration: none;
+		color: #3c3b37;
+}
+.menu-bar ul li a:hover{
+    color: #0f7c90;
+}
+.menu-bar .categories .sub-menu-1{
+		display: none;
+		width: 200px;
+    height: 300px;
+    z-index: 1;
+}
+.menu-bar .categories:hover .sub-menu-1{
+		display: block;
+		position: absolute;
+		background-color: #ffffff;
+		margin-top: 0;
+		box-shadow: 1px 1px rgb(61, 61, 61);
+}
+.menu-bar .categories:hover .sub-menu-1 ul{
+		display: block;
+}
+.menu-bar .categories:hover .sub-menu-1 ul li{
+		font-size: 16px;
+		/* color: rgb(221, 221, 221); */
+}
+.menu-bar .categories .sub-menu-1 .fa-angle-right{
+		float: right;
+}
+.menu-bar .categories .sub-menu-1 .sub-menu-2{
+		display: none;
+		width: 200px;
+}
+.menu-bar .categories .sub-menu-1 .hover-me:hover .sub-menu-2{
+		display: block;
+		position: absolute;
+		top: 0%;
+		height: 350px;
+		margin-left: 155px;
+		box-shadow: 1px 1px rgb(61, 61, 61);
+		background-color: #ffffff;
+}
+
+/* Dream up Section */
+.dream img{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.dream .white-sec{
+  position: absolute;
+  top: 21%;
+  left: 5%;
+  background-color: #ffffff;
+  width: 400px;
+  padding: 15px 20px;
+}
+.dream .white-sec h1{
+  font-weight: bold;
+  font-size: 40px;
+  color: #3c3b37;
+}
+.dream .white-sec p{
+  font-size: 20px;
+  color: #3c3b37;
+}
+.dream .white-sec input{
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #989586;
+  outline: 0;
+  font-size: 16px;
+}
+
+/* Courses Section */
+.online-courses{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* z-index: 3; */
+}
+.online-courses .flex-container{
+	position: relative;
+	margin-top: 100px;
+}
+.online-courses .flex-container img{
+	border: 1px solid #989586;
+}
+.online-courses .flex-container .info{
+	display: block;
+}
+.online-courses .flex-container .info h1{
+	/* display: block; */
+	font-size: 17px;
+	font-weight: bold;
+	width: 250px;
+	margin-left: 1px;
+	margin-top: 10px;
+}
+.online-courses .flex-container .info p{
+	/* display: block; */
+	/* font-size: 13px; */
+	color: #3c3b37;
+	margin-left: 1px;
+}
+.online-courses .flex-container .info .p2{
+	/* display: block; */
+	margin-left: 1px;
+}
+.online-courses .flex-container .info .p2 span{
+	text-decoration: line-through;
+	margin-left: 4px;
+}
+.online-courses .flex-container .info .Bestseller{
+	background-color: #ffe799;
+	color: #593d00;
+	padding: 5px;
+	width: 80px;
+	font-weight: bold;
+}
